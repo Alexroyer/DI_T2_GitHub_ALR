@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EJ1_Oracle_InterfazUsuario.jnlp">
+  <information>
+    <title>EJ1_Oracle_InterfazUsuario</title>
+    <vendor>Aleja</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EJ1_Oracle_InterfazUsuario.jar" size="55971" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="EJ1_Oracle_InterfazUsuario" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ej1_oracle_interfazusuario.EJ1_Oracle_InterfazUsuario"  name="EJ1_Oracle_InterfazUsuario" />
+  <update check="always"/>
+</jnlp>
